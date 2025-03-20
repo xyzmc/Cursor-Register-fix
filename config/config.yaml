@@ -7,11 +7,11 @@ register:
     name: imap_email_server                  # Should be temp_email_server or imap_email_server
     use_custom_address: true                 # [IMAP only] Should be true when use imap_email_server
     custom_email_addresses:                  # 定义多个邮箱账号及其IMAP配置
-    - email: another@example.com             # 可以添加邮箱,但是不建议在云端暴露
-      imap_server: imap.example.com
+    - email: xyzmc3.14159265@gmail.com            # 可以添加邮箱,但是不建议在云端暴露
+      imap_server: imap.gmail.com
       imap_port: 993
-      username: another@example.com
-      password: your_app_password
+      username: xyzmc3.14159265@gmail.com
+      password: xaua ftkt zcmz jods
     # - email: another@example.com           # 可以添加更多邮箱
     #   imap_server: imap.example.com
     #   imap_port: 993
@@ -24,11 +24,10 @@ register:
 
   # 保留默认IMAP设置，但实际将使用custom_email_addresses中的配置
   imap_email_server:                         # Default IMAP setting (will be overridden by custom_email_addresses)
-    imap_server: imap.example.com
-    imap_port: 993
-    username: another@example.com
-    password: your_app_password
-
+     imap_server: imap.gmail.com
+     imap_port: 993
+     username: xyzmc3.14159265@gmail.com
+     password: xaua ftkt zcmz jods
 
 oneapi:
   enabled: false                             # Ingest data into OneAPI server
